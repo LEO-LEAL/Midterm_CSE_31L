@@ -22,9 +22,12 @@
 
 module Complementer(
     input logic [31:0] a, //32-bit input
-    output logic [31:0] y //32-bit output
+    output logic zf, sf,
+    output logic [31:0] out //32-bit output
     );
     
-    assign y = ~a;
+    assign out = ~a;
+    assign zf = (out == 0);
+    //assign sf = 
     
 endmodule
