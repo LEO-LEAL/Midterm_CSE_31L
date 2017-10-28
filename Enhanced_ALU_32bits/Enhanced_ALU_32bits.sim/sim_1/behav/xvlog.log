@@ -1,0 +1,30 @@
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/CSE_31L/Enhanced_ALU_32bits/Enhanced_ALU_32bits.srcs/sources_1/new/AND.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AND
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/CSE_31L/Enhanced_ALU_32bits/Enhanced_ALU_32bits.srcs/sources_1/new/Adder.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Adder
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/CSE_31L/Enhanced_ALU_32bits/Enhanced_ALU_32bits.srcs/sources_1/imports/new/Complementer.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Complementer
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/CSE_31L/Enhanced_ALU_32bits/Enhanced_ALU_32bits.srcs/sources_1/new/Decrementor.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Decrementor
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/CSE_31L/Enhanced_ALU_32bits/Enhanced_ALU_32bits.srcs/sources_1/new/Incrementor.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Incrementor
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/CSE_31L/Enhanced_ALU_32bits/Enhanced_ALU_32bits.srcs/sources_1/new/MUX_12bit_to_1bit.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX_12bit_to_1bit
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/CSE_31L/Enhanced_ALU_32bits/Enhanced_ALU_32bits.srcs/sources_1/new/Mover.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Mover
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/CSE_31L/Enhanced_ALU_32bits/Enhanced_ALU_32bits.srcs/sources_1/new/OR.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module OR
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/CSE_31L/Enhanced_ALU_32bits/Enhanced_ALU_32bits.srcs/sources_1/new/SIMD_ADD.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SIMD_ADD
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/CSE_31L/Enhanced_ALU_32bits/Enhanced_ALU_32bits.srcs/sources_1/new/Shifter.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Shifter
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/CSE_31L/Enhanced_ALU_32bits/Enhanced_ALU_32bits.srcs/sources_1/new/Subtractor.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Subtractor
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/CSE_31L/Enhanced_ALU_32bits/Enhanced_ALU_32bits.srcs/sources_1/new/Twos_complementer.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Twos_complementer
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/CSE_31L/Enhanced_ALU_32bits/Enhanced_ALU_32bits.srcs/sources_1/new/XOR.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module XOR
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/CSE_31L/Enhanced_ALU_32bits/Enhanced_ALU_32bits.srcs/sources_1/new/ALU_32Bits.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU_32Bits
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/CSE_31L/Enhanced_ALU_32bits/Enhanced_ALU_32bits.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl

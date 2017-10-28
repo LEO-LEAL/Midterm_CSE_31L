@@ -28,6 +28,5 @@ module XOR(
     
     assign out = a ^ b;
     assign zf = (out == 0);
-    //assign sf = 
     
 endmodule

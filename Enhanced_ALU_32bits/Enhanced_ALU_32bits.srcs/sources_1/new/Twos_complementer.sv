@@ -37,6 +37,6 @@ module Twos_complementer(
     assign cf = sum[32];
     assign of = ((a[31] == 0) & (a[31]!=out[31]));
     assign zf = (out == 0);
-    //assign sf = 
+    assign sf = (out[31] == 1); 
     
 endmodule

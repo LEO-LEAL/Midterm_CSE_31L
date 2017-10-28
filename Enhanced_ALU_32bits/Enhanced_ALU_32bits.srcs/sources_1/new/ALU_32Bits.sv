@@ -38,17 +38,29 @@ module ALU_32Bits(A, B, Op_Code, Out, cf, of, zf, sf);
     logic [11:0] s = 12'b000000000000;
     
     Adder inst_1(A, B, c[0], o[0], z[0], s[0], b0000);
+    
     Subtractor inst_2(A, B, c[1], o[1], z[1], s[1], b0001);
+    
     Incrementor inst_3(A, c[2], o[2], z[2], s[2], b0010);
+    
     Decrementor inst_4(A, o[3], z[3], s[3], b0011);
-    Mover inst_5(A, z[4], s[4], b0100);
-    Shifter inst_6(A, z[5], s[5], b0101);
+    
+    Mover inst_5(A, z[4], b0100);
+    
+    Shifter inst_6(A, z[5], b0101);
+    
     SIMD_ADD inst_7(A, B, c[6], o[6], z[6], s[6], b0110);
-    AND inst_8(A, B, z[7], s[7], b0111);
-    OR inst_9(A, B, z[8], s[8], b1000);
-    XOR inst_10(A, B, z[9], s[9], b1001);
-    Complementer inst_11(A, z[10], s[9], b1010);
+    
+    AND inst_8(A, B, z[7], b0111);
+    
+    OR inst_9(A, B, z[8], b1000);
+    
+    XOR inst_10(A, B, z[9], b1001);
+    
+    Complementer inst_11(A, z[10], b1010);
+    
     Twos_complementer inst_12(A, c[11], o[11], z[11], s[11], b1011);
+    
     
     logic [31:0] first_sel0, first_sel1,  first_sel2,  first_sel3,  first_sel4,  first_sel5;
     logic [31:0] second_sel0, second_sel1,  second_sel2;
