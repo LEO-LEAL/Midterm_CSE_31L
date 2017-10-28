@@ -22,19 +22,25 @@
 
 module SIMD_ADD(
     input logic [31:0] a, b,
+    output logic cf, of, zf, sf,
     output logic[31:0] out
     );
     
     logic [7:0] sum1;
     logic [7:0] sum2;
     logic [7:0] sum3;
-    logic [7:0] sum4;
+    logic [8:0] sum4;
     
     assign sum1 = a[7:0] + b[7:0];
     assign sum2 = a[15:8] + b[15:8];
     assign sum3 = a[23:16] + b[23:16];
     assign sum4 = a[31:24] + b[31:24];
     
-    assign out = {sum4, sum3, sum2, sum1};
+    assign out = {sum4[7:0], sum3, sum2, sum1};
+    
+    assign cf = sum4[8];
+    assign of = ((a[31] == b[31]) & (a[31]!=out[31]));
+    assign zf = (out == 0);
+    //assign sf = 
     
 endmodule

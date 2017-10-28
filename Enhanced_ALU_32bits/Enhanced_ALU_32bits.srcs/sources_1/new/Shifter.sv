@@ -22,9 +22,12 @@
 
 module Shifter(
     input logic [31:0] a,
+    output logic zf, sf,
     output logic[31:0] out
     );
     
     assign out = a << 1;
+    assign zf = (out == 0);
+    //assign sf = 
     
 endmodule

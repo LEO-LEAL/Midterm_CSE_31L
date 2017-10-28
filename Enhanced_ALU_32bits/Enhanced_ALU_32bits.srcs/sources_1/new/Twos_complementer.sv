@@ -22,13 +22,21 @@
 
 module Twos_complementer(
     input logic [31:0] a,
+    output logic cf, of, zf, sf,
     output logic[31:0] out
     );
     
     logic [31:0] a_complement;
-    
+
     assign a_complement = ~a;
     
-    assign out = a_complement + 1;
+    logic [32:0] sum;
+    assign sum = a_complement + 1;
+    
+    assign out = sum[31:0];
+    assign cf = sum[32];
+    assign of = ((a[31] == 0) & (a[31]!=out[31]));
+    assign zf = (out == 0);
+    //assign sf = 
     
 endmodule
