@@ -1,0 +1,20 @@
+module Addition(a,b,sum,cout, oflag, sflag, cflag);
+
+input logic [31:0] a, b;
+output logic [31:0] sum;
+output logic cout;
+
+output logic oflag, sflag, cflag;
+
+assign {cout,sum} = a + b;
+
+assign cflag = cout ? 1  : 0 ; //checks if there is a carry or not
+
+
+
+assign oflag =  a[31] == b[31] ? (sum[31] ? (a[31] ? 0 : (b[31] ? 0: 1)) : (a[31] ? ( b[31] ? 1 : 0) : 0)): 0 ; //checks if a[31] and b[31] are equal to eachother and  opposite to sum[31], signaling an overflow
+
+
+
+
+endmodule
